@@ -1,0 +1,14 @@
+CREATE TABLE world_happiness_2015
+(country VARCHAR,
+ region VARCHAR,
+ happiness_rank INTEGER,
+ happiness_score DECIMAL(6,1),
+ standard_error DECIMAL(10,1),
+ economy_(GDP_per_capita) DECIMAL(10,1),
+ fmaily DECIMAL(10,1),
+ health_(life_expectancy) DECIMAL(10,1),
+ freedom DECIMAL(10,1),
+ trust_(goverment_corruption) DECIMAL(10,1),
+ generosity DECIMAL(10,1),
+ dystopia DECIMAL(10,1),
+);
